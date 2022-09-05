@@ -1,0 +1,142 @@
+@import url("ttps://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.bg-warning {
+  background-color: #dc143c !important;
+}
+
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #353b48;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-btn {
+  color: #00a8ff;
+  float: right;
+  width: 40px;
+  border-radius: 50%;
+  background: #353b48;
+  display: flex;
+  /* justify-content: center; */
+  float: left;
+  align-items: center;
+  transition: 2s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+  background: white;
+}
+
+.navbar-brand {
+  width: 50px;
+}
+
+/*Cards*/
+
+.bdy-my {
+  text-align: center;
+  align-items: center;
+}
+
+.ftcr {
+  background-color: #e3f2fd;
+  border-radius: 5px;
+  border: none;
+}
+
+.curiosidade {
+  background-color: #dfe1f2;
+  border-radius: 10px;
+}
+.borda {
+  border: 1px solid #dfe1f2;
+  border-radius: 10px;
+}
+
+button:active {
+  box-shadow: 0 0 0 0 #993300, inset 2px 2px 2px #993300;
+}
+.link_estilo {
+  color: #182857;
+}
+.icon {
+  color: #182857;
+}
+.obra {
+  height: 247px;
+  width: 195px;
+}
+.miniatura {
+  border-radius: 15px;
+}
+
+.salvar {
+  border: none;
+}
+
+.link_salvar {
+  color: #878787;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+.link_salvar:hover {
+  text-decoration: underline;
+}
+
+.usuario {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+}
+
+.barra {
+  background-color: #ce5d2f;
+}
+
+.botao_avaliacao {
+  border: none;
+  background-color: #182857;
+  color: #fff;
+  border-radius: 30px;
+  padding: 0.8em;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.link_rapido {
+  color: #182857;
+}
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
